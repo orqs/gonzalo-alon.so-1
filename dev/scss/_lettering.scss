@@ -1,0 +1,142 @@
+@font-face {
+    font-family: 'plutobold';
+    src: url('/fonts/plutobold-webfont.eot');
+    src: url('/fonts/plutobold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/plutobold-webfont.woff') format('woff'),
+         url('/fonts/plutobold-webfont.ttf') format('truetype'),
+         url('/fonts/plutobold-webfont.svg#plutobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'plutolight';
+    src: url('/fonts/plutolight-webfont.eot');
+    src: url('/fonts/plutolight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/plutolight-webfont.woff') format('woff'),
+         url('/fonts/plutolight-webfont.ttf') format('truetype'),
+         url('/fonts/plutolight-webfont.svg#plutolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+#biggie {
+  text-transform:uppercase;
+  text-align:center;
+  position:relative;
+  left:12%;
+  .word1{
+    font-size:48.66px;
+    font-family:'plutobold', sans-serif;
+    position:relative;
+    bottom:100px;
+    left:15px;
+  }
+
+  .word2{
+    font-size:27.93px;
+    font-family:'plutolight', sans-serif;
+    position:relative;
+    bottom:76px;
+    left:-262px;
+  }
+  .word3{
+    font-size:27.93px;
+    font-family:'plutobold', sans-serif;
+    position:relative;
+    bottom:76px;
+    left:-262px;
+  }
+  .word4{
+    font-size:35.54px;
+    font-family:'plutolight', sans-serif;
+    position:relative;
+    bottom:46px;
+    left:-544px;
+  }
+  .word5{
+    font-size:35.54px;
+    font-family:'plutobold', sans-serif;
+    position:relative;
+    bottom:115px;
+    left:154px;
+  }
+  .word6{
+    font-size:45.06px;
+    font-family:'plutolight', sans-serif;
+    position:relative;
+    bottom:76px;
+    left:-122px;
+  }
+  .word7{
+    font-size:21.63px;
+    font-family:'plutolight', sans-serif;
+    text-decoration:underline;
+    position:relative;
+    bottom:54px;
+    left:-400px;
+  }
+  .word8{
+    font-size:59.15px;
+    position:relative;
+    font-family:'plutobold', sans-serif;
+    bottom:28px;
+    left:-400px;
+  }
+  .word9{
+    font-size:30.16px;
+    font-family:'plutobold', sans-serif;
+    position:relative;
+    bottom:54px;
+    left:-32px;
+  }
+  .word10{
+    font-size:21.66px;
+    font-family:'plutolight', sans-serif;
+    text-decoration:underline;
+    position:relative;
+    bottom:60px;
+    left:-32px;
+  }
+  .word11{
+    font-size:37.20px;
+    font-family:'plutolight', sans-serif;
+    position:relative;
+    bottom:24px;
+    left:-280px;
+  }
+  .word12{
+    font-size:37.20px;
+    position:relative;
+    font-family:'plutobold', sans-serif;
+    bottom:24px;
+    left:-280px;
+  }
+  .word13{
+    font-size:21.63px;
+    font-family:'plutolight', sans-serif;
+    position:relative;
+    bottom:4px;
+    left:-440px;
+  }
+  .word14{
+    font-size:21.63px;
+    font-family:'plutolight', sans-serif;
+    position:relative;
+    bottom:4px;
+    left:-440px;
+  }
+  .word15{
+    font-size:55.89px;
+    position:relative;
+    font-family:'plutobold', sans-serif;
+    bottom:24px;
+    left:-180px;
+  }
+
+}
