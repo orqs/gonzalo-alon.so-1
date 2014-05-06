@@ -1,0 +1,27 @@
+@import "compass/css3";
+@import "reset";
+
+.cf:before, .cf:after { content:""; display:table; }
+.cf:after { clear:both; }
+.cf { zoom:1; } /* For IE 6/7 (trigger hasLayout) */
+
+
+@import "header";
+
+section{
+  width:100%;
+  padding:0 0 0 200px;
+}
+
+@import "intro";
+@import "bio";
+
+section.speaker{
+  background:white;
+
+  div {
+    width:45%;
+    margin:2%;
+    float:left;
+  }
+}

@@ -1,0 +1,16 @@
+.header{
+  width:200px;
+  position:fixed;
+  background:rgba(black, .9);
+  color:white;
+  padding:1em;
+  top:0;
+  bottom:0;
+  z-index:1;
+
+  a{
+    display:block;
+    color:white;
+    padding:2em 0;
+  }
+}
