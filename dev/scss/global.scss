@@ -1,5 +1,7 @@
 @import "compass/css3";
 @import "reset";
+@import "bits";
+@import "type";
 
 .cf:before, .cf:after { content:""; display:table; }
 .cf:after { clear:both; }
@@ -16,9 +18,9 @@ section{
 }
 
 .single{
-  width:50%;
+  width:30%;
   float:right;
-  margin:100px 150px 100px 100px;
+  margin:0 150px 100px 100px;
 }
 
 .double{
@@ -29,12 +31,4 @@ section{
 @import "intro";
 @import "bio";
 
-section.speaker{
-  background:white;
-
-  div {
-    width:45%;
-    margin:2%;
-    float:left;
-  }
-}
+@import "speaking";

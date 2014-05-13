@@ -1,3 +1,6 @@
+.logo{
+  font-size:1.2em;
+}
 .header{
   width:200px;
   position:fixed;
@@ -11,6 +14,28 @@
   a{
     display:block;
     color:white;
-    padding:2em 0;
+    padding:5px 5px;
+    margin:2em 5px;
   }
+
+}
+
+@mixin active-nav ($color) {
+  border-left:3px solid $color;
+}
+
+a.active.home{
+  @include active-nav ($orange)
+}
+
+a.active.bio{
+  @include active-nav ($red)
+}
+
+a.active.speaking{
+  @include active-nav ($darkred)
+}
+
+a.active.blog, a.active.newsletter, a.active.contact{
+  @include active-nav ($yellow)
 }

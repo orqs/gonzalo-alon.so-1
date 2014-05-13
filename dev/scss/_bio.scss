@@ -1,9 +1,12 @@
 section.bio{
-  height:750px;
   background:#F26E4B;
-  background-image:url('/build/images/gonzalo-bio.jpg');
+  background-image:url('/build/images/gonzalo-bio.png');
   background-repeat:no-repeat;
-  background-position:120px 0;
-  color:white
+  background-position:120px bottom;
+  height:100%;
+  color:white;
+  overflow:hidden;
+  padding: 150px 0;
+
 
 }

@@ -1,0 +1,44 @@
+$black: rgb(35,36,38);
+$orange: #FBA638;
+$red: #EF4E26;
+$darkred: #B71B29;
+$yellow:#F3EB2B;
+
+.cf:before, .cf:after { content:""; display:table; }
+.cf:after { clear:both; }
+.cf { zoom:1; } /* For IE 6/7 (trigger hasLayout) */
+
+@font-face {
+    font-family: 'plutobold';
+    src: url('/fonts/plutobold-webfont.eot');
+    src: url('/fonts/plutobold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/plutobold-webfont.woff') format('woff'),
+         url('/fonts/plutobold-webfont.ttf') format('truetype'),
+         url('/fonts/plutobold-webfont.svg#plutobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'plutolight';
+    src: url('/fonts/plutolight-webfont.eot');
+    src: url('/fonts/plutolight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/plutolight-webfont.woff') format('woff'),
+         url('/fonts/plutolight-webfont.ttf') format('truetype'),
+         url('/fonts/plutolight-webfont.svg#plutolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@mixin thin {
+  font-family: "plutolight",sans-serif;
+  font-style: normal;
+}
+
+@mixin bold {
+  font-family: "plutobold",sans-serif;
+  font-style: normal;
+}

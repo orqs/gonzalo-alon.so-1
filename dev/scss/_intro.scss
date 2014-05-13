@@ -6,8 +6,11 @@ section.intro{
   height:800px;
   color:white;
   overflow:hidden;
-  padding: 150 0 0 150px;
+  padding: 150px;
+
+  img{
+    max-width:40%;
+    float:right;
+  }
 
 }
-
-@import "lettering";
