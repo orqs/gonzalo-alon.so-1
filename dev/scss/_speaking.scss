@@ -15,5 +15,20 @@ article.charla{
 
 
 .media{
-  padding: 2%;
+  padding: 2% 0;
+}
+
+article{
+  width:60%;
+  margin:15% auto;
+
+
+  h1{
+    text-align:center;
+  }
+  small{
+    font-style:italic;
+    text-align:right;
+    margin-bottom:2%;
+  }
 }
