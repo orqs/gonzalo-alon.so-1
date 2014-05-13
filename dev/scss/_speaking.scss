@@ -16,6 +16,9 @@ article.charla{
 
 .media{
   padding: 2% 0;
+  &:last-child{
+    padding: 2% 0 0 0;
+  }
 }
 
 article{
