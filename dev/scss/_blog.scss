@@ -1,0 +1,31 @@
+.blog{
+  width:60%;
+  margin: 0 2%;
+  float:left;
+}
+article>footer{
+  width:100%;
+  font-size:.65em;
+  font-style:italic;
+  padding:1px 5px;
+  background:$gray;
+}
+aside{
+  width:30%;
+  padding:2%;
+  float:left;
+  text-align:right;
+
+  img{
+    max-width:60%;
+  }
+}
+
+ul{
+  list-style:none;
+  padding:0;
+}
+
+h3{
+  border-bottom:1px solid $gray;
+}

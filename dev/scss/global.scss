@@ -7,9 +7,11 @@
 .cf:after { clear:both; }
 .cf { zoom:1; } /* For IE 6/7 (trigger hasLayout) */
 
+a{
+  color:$black;
+}
 
 @import "header";
-
 
 
 section{
@@ -32,3 +34,6 @@ section{
 @import "bio";
 
 @import "speaking";
+@import "blog";
+@import "contact";
+@import "newsletter";
