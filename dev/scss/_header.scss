@@ -27,33 +27,21 @@
   border-left:3px solid $color;
 }
 
-a.active.home{
+body[class*=-homepage] a.home{
   @include active-nav ($orange)
 }
-
-a.active.bio{
+body[class*=-bio] a.bio{
   @include active-nav ($red)
 }
-
-a.active.speaking{
+body[class*=-speaking] a.speaking{
   @include active-nav ($darkred)
 }
-
-a.active.blog, a.active.newsletter, a.active.contact{
+body[class*='blog'] a.blog{
   @include active-nav ($yellow)
 }
-body.page-id-4 a.home {
-  @include active-nav ($orange)
-}
-
-body.page-id-6 a.bio {
-  @include active-nav ($red)
-
-}
-body.blog a.blog{
+body[class*=-newsletter] a.newsletter{
   @include active-nav ($yellow)
 }
-body.page-id-8 a.contact, body.page-id-12 a.newsletter{
+body[class*=-contact] a.contact{
   @include active-nav ($yellow)
-
 }

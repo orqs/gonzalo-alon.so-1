@@ -464,28 +464,22 @@ a {
     padding: 5px 5px;
     margin: 2em 5px; }
 
-a.active.home {
+body[class*=-homepage] a.home {
   border-left: 3px solid #fba638; }
 
-a.active.bio {
+body[class*=-bio] a.bio {
   border-left: 3px solid #ef4e26; }
 
-a.active.speaking {
+body[class*=-speaking] a.speaking {
   border-left: 3px solid #b71b29; }
 
-a.active.blog, a.active.newsletter, a.active.contact {
+body[class*='blog'] a.blog {
   border-left: 3px solid #f3eb2b; }
 
-body.page-id-4 a.home {
-  border-left: 3px solid #fba638; }
-
-body.page-id-6 a.bio {
-  border-left: 3px solid #ef4e26; }
-
-body.blog a.blog {
+body[class*=-newsletter] a.newsletter {
   border-left: 3px solid #f3eb2b; }
 
-body.page-id-8 a.contact, body.page-id-12 a.newsletter {
+body[class*=-contact] a.contact {
   border-left: 3px solid #f3eb2b; }
 
 section {
