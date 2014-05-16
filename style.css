@@ -496,13 +496,14 @@ section {
   width: 50%;
   float: left; }
 
-section.intro {
+body[class*=-homepage] {
   background: #FDB85B;
   background-image: url("./build/images/gonzalo-headshot.png");
   background-repeat: no-repeat;
   background-position: 120px bottom;
-  background-size: 60%;
-  height: 100% auto;
+  background-size: 60%; }
+
+section.intro {
   color: white;
   overflow: hidden;
   padding: 150px; }
@@ -510,8 +511,10 @@ section.intro {
     max-width: 40%;
     float: right; }
 
+body[class*=-bio] {
+  background: #F26E4B; }
+
 section.bio {
-  background: #F26E4B;
   background-image: url("./build/images/gonzalo-bio.png");
   background-repeat: no-repeat;
   background-position: 120px bottom;

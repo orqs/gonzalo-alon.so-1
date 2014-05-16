@@ -1,10 +1,14 @@
-section.intro{
+
+body[class*=-homepage] {
   background:#FDB85B;
   background-image:url('./build/images/gonzalo-headshot.png');
   background-repeat:no-repeat;
   background-position:120px bottom;
   background-size:60%;
-  height:100% auto;
+
+}
+
+section.intro{
   color:white;
   overflow:hidden;
   padding: 150px;

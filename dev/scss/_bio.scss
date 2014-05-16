@@ -1,5 +1,7 @@
-section.bio{
+body[class*=-bio] {
   background:#F26E4B;
+}
+section.bio{
   background-image:url('./build/images/gonzalo-bio.png');
   background-repeat:no-repeat;
   background-position:120px bottom;
