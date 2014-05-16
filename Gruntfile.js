@@ -13,8 +13,9 @@ module.exports = function(grunt) {
         dist: {                   // Target
           options: {              // Target options
             sassDir: 'dev/scss/',
-            cssDir: 'build/css/',
-            environment: 'production'
+            cssDir: '.',
+            environment: 'production',
+            outputStyle: 'nested'
           }
         }
       },

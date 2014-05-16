@@ -1,4 +1,7 @@
 @import "compass/css3";
+
+@import "data";
+
 @import "reset";
 @import "bits";
 @import "type";
@@ -17,6 +20,7 @@ a{
 section{
   width:100%;
   padding:0 0 0 200px;
+  position:relative;
 }
 
 .single{
@@ -37,3 +41,5 @@ section{
 @import "blog";
 @import "contact";
 @import "newsletter";
+
+@import "landingpage";

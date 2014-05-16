@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'plutobold';
-    src: url('/fonts/plutobold-webfont.eot');
-    src: url('/fonts/plutobold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/fonts/plutobold-webfont.woff') format('woff'),
-         url('/fonts/plutobold-webfont.ttf') format('truetype'),
-         url('/fonts/plutobold-webfont.svg#plutobold') format('svg');
+    src: url('./fonts/plutobold-webfont.eot');
+    src: url('./fonts/plutobold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/plutobold-webfont.woff') format('woff'),
+         url('./fonts/plutobold-webfont.ttf') format('truetype'),
+         url('./fonts/plutobold-webfont.svg#plutobold') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -15,11 +15,11 @@
 
 @font-face {
     font-family: 'plutolight';
-    src: url('/fonts/plutolight-webfont.eot');
-    src: url('/fonts/plutolight-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/fonts/plutolight-webfont.woff') format('woff'),
-         url('/fonts/plutolight-webfont.ttf') format('truetype'),
-         url('/fonts/plutolight-webfont.svg#plutolight') format('svg');
+    src: url('./fonts/plutolight-webfont.eot');
+    src: url('./fonts/plutolight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/plutolight-webfont.woff') format('woff'),
+         url('./fonts/plutolight-webfont.ttf') format('truetype'),
+         url('./fonts/plutolight-webfont.svg#plutolight') format('svg');
     font-weight: normal;
     font-style: normal;
 
