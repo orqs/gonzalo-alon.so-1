@@ -538,6 +538,8 @@ article.talks {
     font-style: italic;
     text-align: right;
     margin-bottom: 2%; }
+  article.talks img {
+    max-width: 200px; }
 
 .posts {
   width: 60%;
