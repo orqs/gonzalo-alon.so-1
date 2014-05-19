@@ -1,15 +1,16 @@
 body[class*=-bio] {
   background:#F26E4B;
-}
-section.bio{
   background-image:url('./build/images/gonzalo-bio.png');
   background-repeat:no-repeat;
   background-position:120px bottom;
   background-size:50%;
+
+}
+section.bio{
   height:100%;
   color:white;
   overflow:hidden;
-  padding: 150px 0;
+  padding: 100px 0;
 
 
 }

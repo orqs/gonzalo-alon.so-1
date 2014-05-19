@@ -1,16 +1,20 @@
-section.news{
-  width:100%;
+body[class*=-newsletter] {
+  background:white;
   background-image:url('./build/images/gonzalo-news.png');
   background-repeat:no-repeat;
   background-position:right bottom;
-  background-size:32%;
+  background-size:50%;
+}
+
+
+section.news{
   height:100%;
   min-height:100%;
+  margin: 30px 50px;
 
 }
 .form{
   width:40%;
-  padding:6.5% 1%;
 }
 
 .button {

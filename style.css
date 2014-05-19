@@ -415,7 +415,7 @@ th {
   font-style: normal; }
 
 body {
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.5;
   font-family: "plutolight",sans-serif;
   font-style: normal;
@@ -501,7 +501,7 @@ body[class*=-homepage] {
   background-image: url("./build/images/gonzalo-headshot.png");
   background-repeat: no-repeat;
   background-position: 120px bottom;
-  background-size: 60%; }
+  background-size: 50%; }
 
 section.intro {
   color: white;
@@ -512,17 +512,17 @@ section.intro {
     float: right; }
 
 body[class*=-bio] {
-  background: #F26E4B; }
-
-section.bio {
+  background: #F26E4B;
   background-image: url("./build/images/gonzalo-bio.png");
   background-repeat: no-repeat;
   background-position: 120px bottom;
-  background-size: 50%;
+  background-size: 50%; }
+
+section.bio {
   height: 100%;
   color: white;
   overflow: hidden;
-  padding: 150px 0; }
+  padding: 100px 0; }
 
 .media {
   padding: 2% 0; }
@@ -531,7 +531,7 @@ section.bio {
 
 article.talks {
   width: 60%;
-  margin: 15% auto; }
+  margin: 70px auto; }
   article.talks h1 {
     text-align: center; }
   article.talks small {
@@ -543,7 +543,7 @@ article.talks {
 
 .posts {
   width: 60%;
-  margin: 0 2%;
+  margin: 30px 50px;
   float: left; }
 
 article > footer {
@@ -573,18 +573,20 @@ h3 {
   margin: 6% auto;
   text-align: center; }
 
-section.news {
-  width: 100%;
+body[class*=-newsletter] {
+  background: white;
   background-image: url("./build/images/gonzalo-news.png");
   background-repeat: no-repeat;
   background-position: right bottom;
-  background-size: 32%;
+  background-size: 50%; }
+
+section.news {
   height: 100%;
-  min-height: 100%; }
+  min-height: 100%;
+  margin: 30px 50px; }
 
 .form {
-  width: 40%;
-  padding: 6.5% 1%; }
+  width: 40%; }
 
 .button {
   clear: both;
