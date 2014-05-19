@@ -508,7 +508,7 @@ section.intro {
   overflow: hidden;
   padding: 150px; }
   section.intro img {
-    max-width: 40%;
+    max-width: 35%;
     float: right; }
 
 body[class*=-bio] {
