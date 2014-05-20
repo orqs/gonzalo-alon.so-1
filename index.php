@@ -8,7 +8,7 @@
         <?php the_excerpt(); ?>
         <a href="<?php echo get_permalink(); ?>"> Sigue leyendo...</a>
       <footer>
-        <p class="meta">T	<?php the_time('d') ?> <?php the_time('M') ?><?php the_time('Y') ?></p>
+        <p class="meta"><?php the_time('d') ?> <?php the_time('M') ?><?php the_time('Y') ?></p>
       </footer>
     </article>
     <?php endwhile; endif; ?>
