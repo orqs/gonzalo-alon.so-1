@@ -489,57 +489,29 @@ a {
 
 body[class*=-homepage] a.home {
   border-left: 3px solid #fba638; }
-  @media screen and (max-width: 650px) {
-    body[class*=-homepage] a.home {
-      border-bottom: 3px solid #fba638;
-      border-left: none; } }
 
 body[class*=-bio] a.bio {
   border-left: 3px solid #ef4e26; }
-  @media screen and (max-width: 650px) {
-    body[class*=-bio] a.bio {
-      border-bottom: 3px solid #ef4e26;
-      border-left: none; } }
 
 body[class*=-speaking] a.speaking {
   border-left: 3px solid #b71b29; }
-  @media screen and (max-width: 650px) {
-    body[class*=-speaking] a.speaking {
-      border-bottom: 3px solid #b71b29;
-      border-left: none; } }
 
 body[class*='blog'] a.blog {
   border-left: 3px solid #f3eb2b; }
-  @media screen and (max-width: 650px) {
-    body[class*='blog'] a.blog {
-      border-bottom: 3px solid #f3eb2b;
-      border-left: none; } }
 
 body[class*=-newsletter] a.newsletter {
   border-left: 3px solid #f3eb2b; }
-  @media screen and (max-width: 650px) {
-    body[class*=-newsletter] a.newsletter {
-      border-bottom: 3px solid #f3eb2b;
-      border-left: none; } }
 
 body[class*=-contact] a.contact {
   border-left: 3px solid #f3eb2b; }
-  @media screen and (max-width: 650px) {
-    body[class*=-contact] a.contact {
-      border-bottom: 3px solid #f3eb2b;
-      border-left: none; } }
 
 body[class*=-publish] a.publish {
   border-left: 3px solid #f3eb2b; }
-  @media screen and (max-width: 650px) {
-    body[class*=-publish] a.publish {
-      border-bottom: 3px solid #f3eb2b;
-      border-left: none; } }
 
 a.menu-link {
   position: fixed;
-  top: 0;
-  right: 10px; }
+  top: 15px;
+  right: 20px; }
 
 nav[role=navigation] {
   clear: both;
@@ -564,7 +536,7 @@ nav[role=navigation] li a {
   display: block;
   padding: 0.8em; }
 
-@media screen and (max-width: 1600px) {
+@media screen and (min-width: 48.25em) {
   a.menu-link {
     display: none; }
 
@@ -572,7 +544,8 @@ nav[role=navigation] li a {
     max-height: none; }
 
   nav[role=navigation] ul {
-    margin: 0 0 0 -0.25em; }
+    margin: 0 0 0 -0.25em;
+    border: 0; }
 
   nav[role=navigation] li {
     display: block;

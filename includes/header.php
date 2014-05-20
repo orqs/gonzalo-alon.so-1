@@ -11,19 +11,3 @@
     <li><a class="contact" href="/contact/">contact</a></li>
   </nav>
 </div>
-
-<!--Pattern HTML
-  <div id="pattern" class="pattern">
-
-		<a href="#menu" class="menu-link">Menu</a>
-		<nav id="menu" role="navigation">
-			<ul>
-				<li><a href="#">Home</a></li>
-				<li><a href="#">About</a></li>
-				<li><a href="#">Products</a></li>
-				<li><a href="#">Services</a></li>
-				<li><a href="#">Contact</a></li>
-			</ul>
-		</nav>
-	</div>
--->
