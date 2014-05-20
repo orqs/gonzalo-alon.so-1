@@ -1,5 +1,5 @@
 <header class="header">
-  <h1 class="logo">Gonzalo</br>Alonzo</h1>
+  <h1 class="logo">Gonzalo</br>Alonso</h1>
   <nav>
     <a class="home" href="/home/">home</a>
     <a class="bio" href="/bio/">bio</a>
