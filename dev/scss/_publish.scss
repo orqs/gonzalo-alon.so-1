@@ -1,6 +1,11 @@
 .book{
   width:63%;
   margin:6% auto;
+
+  img{
+    float:left;
+  }
+
   @include breakpoint(small) {
     width:98%;
     p{
@@ -9,7 +14,7 @@
   }
 
   img{
-    float:left;
+    clear:both;
     max-width:200px;
     max-height:200px;
     margin: 0 15px 0 0;

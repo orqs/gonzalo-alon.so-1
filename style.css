@@ -709,7 +709,8 @@ aside {
   @media screen and (max-width: 650px) {
     aside {
       width: 90%;
-      padding: 15px; } }
+      padding: 15px;
+      margin: 0 auto; } }
 
 ul {
   list-style: none;
@@ -774,13 +775,15 @@ section.news {
 .book {
   width: 63%;
   margin: 6% auto; }
+  .book img {
+    float: left; }
   @media screen and (max-width: 650px) {
     .book {
       width: 98%; }
       .book p {
         text-align: center; } }
   .book img {
-    float: left;
+    clear: both;
     max-width: 200px;
     max-height: 200px;
     margin: 0 15px 0 0; }
