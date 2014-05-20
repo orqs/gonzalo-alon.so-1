@@ -602,7 +602,8 @@ section.bio {
       position: fixed;
       top: 0;
       bottom: 0;
-      background: rgba(0, 0, 0, 0.5); } }
+      background: rgba(0, 0, 0, 0.5);
+      overflow: scroll; } }
 
 .one-right {
   width: 30%;
@@ -669,6 +670,10 @@ aside {
       clear: both; }
       aside img {
         max-width: 30%; } }
+  @media screen and (max-width: 650px) {
+    aside {
+      width: 90%;
+      margin: 30px; } }
 
 ul {
   list-style: none;
