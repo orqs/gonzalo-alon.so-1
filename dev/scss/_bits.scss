@@ -40,3 +40,15 @@ $yellow:#F3EB2B;
   font-family: "sanchez",sans-serif;
   font-style: normal;
 }
+
+@mixin breakpoint($point) {
+  @if $point == big {
+    @media screen and (max-width: 1600px) { @content; }
+  }
+  @else if $point == med {
+    @media screen and (max-width: 960px) { @content; }
+  }
+  @else if $point == small {
+    @media screen and (max-width: 650px)  { @content; }
+  }
+}

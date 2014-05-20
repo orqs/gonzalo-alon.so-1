@@ -1,12 +1,19 @@
 .logo{
   font-size:1.2em;
+  @include breakpoint(small) {
+  font-size:.80em;
+  margin:0 5px 0 0;
+  }
+
+
 }
+
 .header{
   width:200px;
   position:fixed;
   background:rgba(black, .9);
   color:white;
-  padding:1em;
+  padding:15px;
   top:0;
   bottom:0;
   z-index:1;
@@ -18,14 +25,44 @@
     margin:2em 5px;
   }
 
+  @include breakpoint(med) {
+    width: 130px;
+    position:fixed;
+
+  }
+
+  @include breakpoint(small) {
+    width: 100%;
+    position:relative;
+
+    nav{
+      width:90%;
+      margin:0 auto;
+    }
+
+    a{
+      display:inline-block;
+      color:white;
+      padding:5px 0;
+      margin:5px 5px 5px 0;
+    }
+
+  }
+
 }
 
 @mixin active-nav ($color) {
   border-left:3px solid $color;
+  @include breakpoint(small) {
+  border-bottom:3px solid $color;
+  border-left:none;
+
+  }
 }
 
 body[class*=-homepage] a.home{
   @include active-nav ($orange)
+
 }
 body[class*=-bio] a.bio{
   @include active-nav ($red)

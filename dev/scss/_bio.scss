@@ -5,6 +5,14 @@ body[class*=-bio] {
   background-position:120px bottom;
   background-size:50%;
 
+
+    @include breakpoint(med) {
+      background-position:left bottom;
+      background-size:50%;
+
+    }
+
+
 }
 section.bio{
   height:100%;
@@ -12,5 +20,18 @@ section.bio{
   overflow:hidden;
   padding: 100px 0;
 
+
+
+}
+
+.one-right{
+  width:30%;
+  float:right;
+  margin:0 150px 100px 100px;
+
+  @include breakpoint(med) {
+    width: 40%;
+
+  }
 
 }

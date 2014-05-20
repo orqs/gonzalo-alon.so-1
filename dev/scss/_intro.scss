@@ -5,7 +5,10 @@ body[class*=-homepage] {
   background-repeat:no-repeat;
   background-position:120px bottom;
   background-size:50%;
+  @include breakpoint(med) {
+  background-position:left bottom;
 
+  }
 }
 
 section.intro{
@@ -17,5 +20,15 @@ section.intro{
     max-width:35%;
     float:right;
   }
+  @include breakpoint(med) {
+  padding: 100px;
+
+  img{
+    max-width:60%;
+    float:right;
+  }
+
+  }
+
 
 }

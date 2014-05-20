@@ -2,6 +2,13 @@
   width:60%;
   margin: 30px 50px;
   float:left;
+  @include breakpoint(med) {
+    width:90%;
+    margin: 30px 30px;
+    clear:both;
+
+
+  }
 
 }
 article>footer{
@@ -20,6 +27,18 @@ aside{
   img{
     max-width:60%;
   }
+
+  @include breakpoint(med) {
+    width:90%;
+    margin: 0 30px 0 150px;
+    text-align:left;
+    clear:both;
+    img{
+      max-width:30%;
+    }
+
+  }
+
 }
 
 ul{
