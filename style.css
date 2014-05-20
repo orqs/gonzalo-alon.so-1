@@ -625,7 +625,7 @@ section.bio {
   padding: 100px 0; }
   @media screen and (max-width: 650px) {
     section.bio {
-      padding: 170px 0;
+      padding: 80px 0;
       position: fixed;
       top: 0;
       bottom: 0;
