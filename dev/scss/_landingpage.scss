@@ -3,6 +3,11 @@
   margin:50px auto;
   text-align:center;
 
+  @include breakpoint(small) {
+    width:80%;
+
+  }
+
   img{
     max-width:50%;
   }

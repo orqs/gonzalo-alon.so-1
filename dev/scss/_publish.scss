@@ -3,7 +3,9 @@
   margin:6% auto;
   @include breakpoint(small) {
     width:98%;
-
+    p{
+    text-align:center;
+    }
   }
 
   img{

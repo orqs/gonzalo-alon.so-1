@@ -41,6 +41,7 @@ section.bio{
   float:right;
   margin:0 150px 100px 100px;
 
+
   @include breakpoint(med) {
     width: 40%;
 
@@ -49,6 +50,7 @@ section.bio{
   width: 98%;
   margin:0 auto;
   float:none;
+  padding:15px;
   }
 
 }

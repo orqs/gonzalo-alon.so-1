@@ -643,7 +643,8 @@ section.bio {
     .one-right {
       width: 98%;
       margin: 0 auto;
-      float: none; } }
+      float: none;
+      padding: 15px; } }
 
 .media {
   padding: 2% 0; }
@@ -663,7 +664,15 @@ article.talks {
     max-width: 500px; }
   @media screen and (max-width: 650px) {
     article.talks {
-      width: 98%; } }
+      width: 98%; }
+      article.talks p {
+        padding: 15px; }
+      article.talks h2 {
+        padding: 15px; }
+      article.talks small {
+        padding: 15px; }
+      article.talks img {
+        padding: 5px; } }
 
 .posts {
   width: 60%;
@@ -672,7 +681,7 @@ article.talks {
   @media screen and (max-width: 960px) {
     .posts {
       width: 90%;
-      margin: 30px 30px;
+      margin: 0 5%;
       clear: both; } }
 
 article > footer {
@@ -700,7 +709,7 @@ aside {
   @media screen and (max-width: 650px) {
     aside {
       width: 90%;
-      margin: 30px; } }
+      padding: 15px; } }
 
 ul {
   list-style: none;
@@ -720,6 +729,12 @@ body[class*=-newsletter] {
   background-repeat: no-repeat;
   background-position: right bottom;
   background-size: 50%; }
+  @media screen and (max-width: 650px) {
+    body[class*=-newsletter] {
+      background-image: none;
+      background-repeat: no-repeat;
+      background-position: right bottom;
+      background-size: 50%; } }
 
 section.news {
   height: 100%;
@@ -761,7 +776,9 @@ section.news {
   margin: 6% auto; }
   @media screen and (max-width: 650px) {
     .book {
-      width: 98%; } }
+      width: 98%; }
+      .book p {
+        text-align: center; } }
   .book img {
     float: left;
     max-width: 200px;
@@ -772,6 +789,9 @@ section.news {
   width: 50%;
   margin: 50px auto;
   text-align: center; }
+  @media screen and (max-width: 650px) {
+    .landing {
+      width: 80%; } }
   .landing img {
     max-width: 50%; }
   .landing a {

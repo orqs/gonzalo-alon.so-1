@@ -24,7 +24,18 @@ article.talks{
 
   @include breakpoint(small) {
     width:98%;
-
+    p{
+    padding:15px;
+  }
+    h2{
+      padding:15px;
+    }
+    small{
+    padding:15px;
+    }
+    img{
+      padding:5px;
+    }
   }
 
 }
