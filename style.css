@@ -487,6 +487,11 @@ section {
   padding: 0 0 0 200px;
   position: relative; }
 
+.one-right {
+  width: 30%;
+  float: right;
+  margin: 0 150px 100px 100px; }
+
 body[class*=-homepage] {
   background: #FDB85B;
   background-image: url("./build/images/gonzalo-headshot.png");
