@@ -12,5 +12,4 @@ get_header(); ?>
     <?php endwhile; endif; ?>
     </article>
   </section>
-  <script src="<?php bloginfo('template_url'); ?>/build/js/global.min.js"></script>
 <?php get_footer(); ?>
