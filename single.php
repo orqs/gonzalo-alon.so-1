@@ -10,7 +10,10 @@
         <p class="meta"><?php the_time('d') ?> <?php the_time('M') ?><?php the_time('Y') ?></p>
       </footer>
     </article>
-    <?php endwhile; endif; ?>
+  <?php endwhile; endif; ?>
+  <div class="comments">
+    <?php comments_template(); ?>
+  </div>
   </section>
   <aside>
       <?php get_sidebar(); ?>
