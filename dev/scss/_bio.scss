@@ -11,6 +11,10 @@ body[class*=-bio] {
       background-size:50%;
 
     }
+    @include breakpoint(small) {
+    background-position:center bottom;
+    background-size:100%;
+    }
 
 
 }
@@ -19,6 +23,13 @@ section.bio{
   color:white;
   overflow:hidden;
   padding: 100px 0;
+  @include breakpoint(small) {
+  padding:170px 0;
+  position:fixed;
+  top:0;
+  bottom:0;
+  background:rgba(black, .5);
+  }
 
 
 
@@ -32,6 +43,11 @@ section.bio{
   @include breakpoint(med) {
     width: 40%;
 
+  }
+  @include breakpoint(small) {
+  width: 98%;
+  margin:0 auto;
+  float:none;
   }
 
 }

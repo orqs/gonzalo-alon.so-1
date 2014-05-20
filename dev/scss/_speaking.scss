@@ -21,4 +21,10 @@ article.talks{
   img{
     max-width:500px;
   }
+
+  @include breakpoint(small) {
+  width:98%;
+
+  }
+
 }

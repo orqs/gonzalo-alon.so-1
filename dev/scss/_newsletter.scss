@@ -12,9 +12,19 @@ section.news{
   min-height:100%;
   margin: 30px 50px;
 
+  @include breakpoint(small) {
+    width:80%;
+    margin: 0 50px;
+
+  }
+
 }
 .form{
   width:40%;
+  @include breakpoint(small) {
+    width:80%;
+
+  }
 }
 
 .button {
