@@ -9,6 +9,11 @@ body[class*=-homepage] {
   background-position:left bottom;
 
   }
+
+  @include breakpoint(small) {
+  background-position:center bottom;
+  background-size:100%;
+  }
 }
 
 section.intro{
@@ -28,6 +33,19 @@ section.intro{
     float:right;
   }
 
+  }
+  @include breakpoint(small) {
+    padding: 120px 0 0 0;
+    position:fixed;
+    top:0;
+    bottom:0;
+    text-align:center;
+    background:rgba(black, .5);
+
+    img{
+      max-width:90%;
+      float:none;
+    }
   }
 
 

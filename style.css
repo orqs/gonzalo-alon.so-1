@@ -476,7 +476,7 @@ a {
       width: 100%;
       position: relative; }
       .header nav {
-        width: 90%;
+        width: 100%;
         margin: 0 auto; }
       .header a {
         display: inline-block;
@@ -533,6 +533,9 @@ section {
   @media screen and (max-width: 960px) {
     section {
       padding: 0 0 0 150px; } }
+  @media screen and (max-width: 650px) {
+    section {
+      padding: 0; } }
 
 body[class*=-homepage] {
   background: #FDB85B;
@@ -543,6 +546,10 @@ body[class*=-homepage] {
   @media screen and (max-width: 960px) {
     body[class*=-homepage] {
       background-position: left bottom; } }
+  @media screen and (max-width: 650px) {
+    body[class*=-homepage] {
+      background-position: center bottom;
+      background-size: 100%; } }
 
 section.intro {
   color: white;
@@ -557,6 +564,17 @@ section.intro {
       section.intro img {
         max-width: 60%;
         float: right; } }
+  @media screen and (max-width: 650px) {
+    section.intro {
+      padding: 120px 0 0 0;
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      text-align: center;
+      background: rgba(0, 0, 0, 0.5); }
+      section.intro img {
+        max-width: 90%;
+        float: none; } }
 
 body[class*=-bio] {
   background: #F26E4B;
@@ -680,9 +698,18 @@ section.news {
   white-space: nowrap;
   width: auto; }
 
+.book {
+  width: 63%;
+  margin: 6% auto; }
+  .book img {
+    float: left;
+    max-width: 200px;
+    max-height: 200px;
+    margin: 0 15px 0 0; }
+
 .landing {
   width: 50%;
-  margin: 0 auto;
+  margin: 50px auto;
   text-align: center; }
   .landing img {
     max-width: 50%; }

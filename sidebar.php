@@ -2,9 +2,9 @@
 
         <?php get_search_form(); ?>
       <ul>
-        <li>RSS Feed</li>
-        <li>@twitter</li>
-        <li>Facebook</li>
+        <li><a href="http://gonzalo-alonso.com/feed/rss2/">RSS Feed</a></li>
+        <li><a href="https://twitter.com/gonzoogle">Twitter</a></li>
+        <li><a href="https://www.facebook.com/gonzoogle">Facebook</a></li>
       </ul>
 
 
