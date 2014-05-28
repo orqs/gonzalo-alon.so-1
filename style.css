@@ -684,6 +684,9 @@ article.talks {
       margin: 0 5%;
       clear: both; } }
 
+article img {
+  max-width: 60%; }
+
 article > footer {
   width: 100%;
   font-size: .65em;
