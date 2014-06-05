@@ -8,7 +8,7 @@
   <title><?php bloginfo( 'name' ); ?><?php wp_title( '|' ); ?></title>
   <meta name="author" content="Rodrigo Ibarra">
   <meta charset="<?php bloginfo( 'charset' ); ?>" />
-  <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
+  <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); echo '?' . filemtime( get_stylesheet_directory() . '/style.css'); ?>" type="text/css" media="screen" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
