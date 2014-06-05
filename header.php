@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
   <title><?php bloginfo( 'name' ); ?><?php wp_title( '|' ); ?></title>
-  <meta name="author" content="Rodrigo Ibarra">
+  <meta name="author" content="Gonzalo Alonso">
   <meta charset="<?php bloginfo( 'charset' ); ?>" />
   <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); echo '?' . filemtime( get_stylesheet_directory() . '/style.css'); ?>" type="text/css" media="screen" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
