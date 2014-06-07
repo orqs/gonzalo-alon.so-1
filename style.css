@@ -47,10 +47,6 @@ body {
 html {
   overflow-y: auto; }
 
-img {
-  width: 100%;
-  height: auto !important; }
-
 audio,
 video,
 canvas {
@@ -785,8 +781,6 @@ section.news {
         text-align: center; } }
   .book img {
     clear: both;
-    max-width: 200px;
-    max-height: 200px;
     margin: 0 15px 0 0; }
 
 .landing {
