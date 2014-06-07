@@ -1,4 +1,4 @@
-    		<img src="<?php bloginfo('template_url'); ?>/build/images/mono.png" alt="moño" />
+    		<img src="<?php bloginfo('template_url'); ?>/build/images/rogue-squadron.png" alt="moño" />
 
         <?php get_search_form(); ?>
       <ul>
