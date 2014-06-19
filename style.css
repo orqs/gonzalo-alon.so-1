@@ -598,7 +598,8 @@ body[class*=-homepage] {
   background-image: url("./build/images/gonzalo-headshot.png");
   background-repeat: no-repeat;
   background-position: 120px bottom;
-  background-size: 50%; }
+  background-size: 50%;
+  position: fixed; }
   @media screen and (max-width: 960px) {
     body[class*=-homepage] {
       background-position: left bottom; } }
@@ -637,7 +638,8 @@ body[class*=-bio] {
   background-image: url("./build/images/gonzalo-bio.png");
   background-repeat: no-repeat;
   background-position: 120px bottom;
-  background-size: 50%; }
+  background-size: 50%;
+  position: fixed; }
   @media screen and (max-width: 960px) {
     body[class*=-bio] {
       background-position: left bottom;
@@ -761,7 +763,8 @@ body[class*=-newsletter] {
   background-image: url("./build/images/gonzalo-news.png");
   background-repeat: no-repeat;
   background-position: right bottom;
-  background-size: 50%; }
+  background-size: 50%;
+  position: fixed; }
   @media screen and (max-width: 650px) {
     body[class*=-newsletter] {
       background-image: none;
