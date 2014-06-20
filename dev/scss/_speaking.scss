@@ -39,3 +39,33 @@ article.talks{
   }
 
 }
+
+.grid{
+
+  width:((100% - (2 * 2%))/ 3);
+  float:left;
+  margin-right:2%;
+  margin-bottom:2%;
+
+  &:nth-child(3n) {
+    margin-right:0;
+  }
+
+  @include breakpoint(med) {
+   width:48%;
+   margin-right:2%;
+
+   &:nth-child(3n) {
+     margin-right:2%;
+   }
+
+  }
+
+  @include breakpoint(small) {
+
+    width:100%;
+    margin-right:0;
+
+  }
+
+}

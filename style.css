@@ -668,6 +668,24 @@ article.talks {
       article.talks img {
         padding: 5px; } }
 
+.grid {
+  width: 32%;
+  float: left;
+  margin-right: 2%;
+  margin-bottom: 2%; }
+  .grid:nth-child(3n) {
+    margin-right: 0; }
+  @media screen and (max-width: 960px) {
+    .grid {
+      width: 48%;
+      margin-right: 2%; }
+      .grid:nth-child(3n) {
+        margin-right: 2%; } }
+  @media screen and (max-width: 650px) {
+    .grid {
+      width: 100%;
+      margin-right: 0; } }
+
 .posts {
   width: 60%;
   margin: 30px 50px;
