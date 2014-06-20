@@ -5,6 +5,7 @@ body[class*=-homepage] {
   background-repeat:no-repeat;
   background-position:120px bottom;
   background-size:50%;
+  position:fixed;
   @include breakpoint(med) {
   background-position:left bottom;
 

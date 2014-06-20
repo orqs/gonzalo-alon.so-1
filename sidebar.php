@@ -3,8 +3,10 @@
         <?php get_search_form(); ?>
       <ul>
         <li><a href="http://gonzalo-alonso.com/feed/rss2/">RSS Feed</a></li>
-        <li><a href="https://twitter.com/gonzoogle">Twitter</a></li>
-        <li><a href="https://www.facebook.com/gonzoogle">Facebook</a></li>
+        <li><a class="social symbol" href="http://twitter.com/gonzoogle">Twitter &#xe286;</a></li>
+        <li><a class="social symbol" href="hhttps://www.facebook.com/pages/Gonzalo-Alonso/1454128954807284">FaceBook &#xe227;</a></li>
+        <li><a class="social symbol" href="http://instagram.com/gonzoogle">Instagram &#xe300;</a></li>
+        <li><a class="social symbol" href="http://mx.linkedin.com/in/gonzoalonso" >LinkedIn &#xe252;</a></li>
       </ul>
 
 

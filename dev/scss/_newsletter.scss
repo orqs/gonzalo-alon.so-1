@@ -4,6 +4,7 @@ body[class*=-newsletter] {
   background-repeat:no-repeat;
   background-position:right bottom;
   background-size:50%;
+  position:fixed;
   @include breakpoint(small) {
     background-image:none;
     background-repeat:no-repeat;

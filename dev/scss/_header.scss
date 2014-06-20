@@ -24,6 +24,7 @@
     padding:5px 5px;
     margin:2em 5px;
   }
+  a.social {padding:0; margin:0; display:inline-block;}
 
   @include breakpoint(med) {
     width: 130px;
@@ -106,7 +107,6 @@ a.menu-link {
     }
     nav[role=navigation] li a {
       display: block;
-      padding: 0.8em;
 
     }
 
@@ -130,3 +130,31 @@ a.menu-link {
         border: 0;
       }
     }
+
+    .symbol, a.symbol:before {
+      font-size: 1.8em;
+    font-family: 'Mono Social Icons Font';
+    -webkit-text-rendering: optimizeLegibility;
+    -moz-text-rendering: optimizeLegibility;
+    -ms-text-rendering: optimizeLegibility;
+    -o-text-rendering: optimizeLegibility;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+}
+
+      a.symbol:before {
+          content: attr(title);
+          margin-right: 0.3em;
+          font-size: 1.8em;
+      }
+
+      a.symbol {
+
+          padding: 7px 5px 3px 5px;
+          color: $orange;
+          text-decoration: none;
+      }
