@@ -12,6 +12,7 @@
       </footer>
     </article>
     <?php endwhile; endif; ?>
+    <div class="navigation"><p><?php posts_nav_link(); ?></p></div>
   </section>
   <aside>
     	<?php get_sidebar(); ?>
