@@ -741,7 +741,8 @@ article > footer {
   font-size: .65em;
   font-style: italic;
   padding: 1px 5px;
-  background: #ebebeb; }
+  background: #ebebeb;
+  margin-top:15px;}
 
 aside {
   width: 30%;
@@ -773,8 +774,7 @@ h3 {
 
 .contacto {
   width: 63%;
-  margin: 6% auto;
-  text-align: center; }
+  margin: 2% 7%; }
 
 body[class*=-newsletter] {
   background: white;
