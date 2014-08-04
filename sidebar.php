@@ -4,7 +4,8 @@
 
 	<h3><?php _e( 'Publicaciones por categoría' ); ?></h3>
 
-		<?php wp_list_categories( 'orderby=name&title_li=' ); ?>
+		<?php wp_list_categories( 'orderby=name&include=14,99,208,66,80,125,135,137'); ?>
+		
 
 	<h3><?php _e( 'Publicaciones por mes' ); ?></h3>
 
