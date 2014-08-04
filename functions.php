@@ -7,7 +7,7 @@ function my_jquery_enqueue() {
    wp_enqueue_script('jquery');
 }?>
 <?php
-add_action('wp_footer', 'add_googleanalytics');
+add_action('wp_head', 'add_googleanalytics');
 function add_googleanalytics() { ?>
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
