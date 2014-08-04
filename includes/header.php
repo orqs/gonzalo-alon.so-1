@@ -13,7 +13,7 @@
       <a class="social symbol" target="_blank" href="http://twitter.com/gonzoogle">&#xe286;</a>
       <a class="social symbol" target="_blank" href="http://mx.linkedin.com/in/gonzoalonso" >&#xe252;</b></a>
       <a class="social symbol" target="_blank" href="http://instagram.com/gonzoogle">&#xe300;</a>
-      <a class="social symbol" target="_blank" href="hhttps://www.facebook.com/pages/Gonzalo-Alonso/1454128954807284">&#xe227;</a>
+      <a class="social symbol" target="_blank" href="https://www.facebook.com/pages/Gonzalo-Alonso/1454128954807284">&#xe227;</a>
     </li>
   </nav>
 </div>
