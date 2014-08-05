@@ -837,7 +837,7 @@ section.lp {
       
 body[class*=-lpages] {
   background: #FFFFFF;
-  background-image: url("./build/images/gonzalo-bio.png");
+  background-image: url("./build/images/gonzalo-news.png");
   background-repeat: no-repeat;
   background-position: right bottom;
   background-size: 50%;
@@ -853,7 +853,6 @@ body[class*=-lpages] {
 
 section.lpages {
   height: 100%;
-  color: white;
   overflow: hidden;
   padding: 50px 0; }
   @media screen and (max-width: 650px) {
@@ -865,15 +864,15 @@ section.lpages {
       background: rgba(0, 0, 0, 0.5);
       overflow: scroll; } }
 
-.lp-one-right {
-  width: 30%;
-  float: right;
-  margin: 0 150px 100px 100px; }
+.lp-one-left {
+  width: 50%;
+  float: left;
+  margin: 0 0 100px 250px; }
   @media screen and (max-width: 960px) {
-    .lp-one-right {
+    .lp-one-left {
       width: 40%; } }
   @media screen and (max-width: 650px) {
-    .lp-one-right {
+    .lp-one-left {
       width: 98%;
       margin: 0 auto;
       float: none;
