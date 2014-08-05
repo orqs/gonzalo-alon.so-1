@@ -878,7 +878,7 @@ section.lpages {
       padding: 15px; } }
       
 .one-left img {
-  max-width: 100%; }
+  align-content: center;}
   @media screen and (max-width: 650px) {
     .one-left img{
       display:none;
