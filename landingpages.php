@@ -1,6 +1,6 @@
  <?php
       /*
-      Template Name: LandingPages
+      Template Name: Landingpages
       */
   get_header(); ?>
     <section class="news">
