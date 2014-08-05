@@ -513,6 +513,7 @@ body[class*=-contact] a.contact {
 
 body[class*=-publish] a.publish {
   border-left: 3px solid #f3eb2b; }
+  
 
 a.menu-link {
   position: fixed;
@@ -790,6 +791,20 @@ body[class*=-newsletter] {
       background-position: right bottom;
       background-size: 50%; } }
 
+body[class*=-landingpages] {
+  background: white;
+  background-image: url("./build/images/gonzalo-news.png");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 50%;
+  position: fixed; }
+  @media screen and (max-width: 650px) {
+    body[class*=-landingpages] {
+      background-image: none;
+      background-repeat: no-repeat;
+      background-position: right bottom;
+      background-size: 50%; } }
+
 section.news {
   height: 100%;
   min-height: 100%;
@@ -850,3 +865,5 @@ section.news {
     max-width: 50%; }
   .landing a {
     text-decoration: underline; }
+    
+
