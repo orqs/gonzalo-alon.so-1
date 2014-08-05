@@ -813,6 +813,15 @@ section.news {
     section.news {
       width: 80%;
       margin: 0 50px; } }
+      
+section.lp {
+  height: 100%;
+  min-height: 100%;
+  margin: 30px 50px; }
+  @media screen and (max-width: 650px) {
+    section.news {
+      width: 80%;
+      margin: 0 50px; } }
 
 .form {
   width: 40%; }
