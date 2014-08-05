@@ -865,7 +865,7 @@ section.lpages {
       overflow: scroll; } }
 
 .one-left {
-  width: 40%;
+  width: 50%;
   margin: 0 0 100px 250px; }
   @media screen and (max-width: 960px) {
     .one-left {
@@ -876,6 +876,13 @@ section.lpages {
       margin: 0 auto;
       float: none;
       padding: 15px; } }
+      
+.one-left img {
+  max-width: 100%; }
+  @media screen and (max-width: 650px) {
+    .one-left img{
+      display:none;
+     } }
 
 .button {
   clear: both;
