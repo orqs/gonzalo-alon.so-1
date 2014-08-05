@@ -791,6 +791,21 @@ body[class*=-newsletter] {
       background-position: right bottom;
       background-size: 50%; } }
 
+section.news {
+  height: 100%;
+  min-height: 100%;
+  margin: 30px 50px; }
+  @media screen and (max-width: 650px) {
+    section.news {
+      width: 80%;
+      margin: 0 50px; } }
+
+.form {
+  width: 40%; }
+  @media screen and (max-width: 650px) {
+    .form {
+      width: 80%; } }
+
 body[class*=-landingpages] {
   background: white;
   background-image: url("./build/images/gonzalo-news.png");
@@ -804,15 +819,6 @@ body[class*=-landingpages] {
       background-repeat: no-repeat;
       background-position: right bottom;
       background-size: 50%; } }
-
-section.news {
-  height: 100%;
-  min-height: 100%;
-  margin: 30px 50px; }
-  @media screen and (max-width: 650px) {
-    section.news {
-      width: 80%;
-      margin: 0 50px; } }
       
 section.lp {
   height: 100%;
@@ -822,18 +828,56 @@ section.lp {
     section.lp {
       width: 80%;
       margin: 0 50px; } }
-
-.form {
-  width: 40%; }
-  @media screen and (max-width: 650px) {
-    .form {
-      width: 80%; } }
       
 .textlp {
   width: 70%; }
   @media screen and (max-width: 650px) {
     .textlp {
       width: 80%; } }
+      
+body[class*=-lpages] {
+  background: #FFFFFF;
+  background-image: url("./build/images/gonzalo-bio.png");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 50%;
+  position: fixed; }
+  @media screen and (max-width: 960px) {
+    body[class*=-lpages] {
+      background-position: right bottom;
+      background-size: 50%; } }
+  @media screen and (max-width: 650px) {
+    body[class*=-lpages] {
+      background-position: center bottom;
+      background-size: 100%; } }
+
+section.lpages {
+  height: 100%;
+  color: white;
+  overflow: hidden;
+  padding: 50px 0; }
+  @media screen and (max-width: 650px) {
+    section.lpages {
+      padding: 80px 0;
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.5);
+      overflow: scroll; } }
+
+.lp-one-right {
+  width: 30%;
+  float: right;
+  margin: 0 150px 100px 100px; }
+  @media screen and (max-width: 960px) {
+    .lp-one-right {
+      width: 40%; } }
+  @media screen and (max-width: 650px) {
+    .lp-one-right {
+      width: 98%;
+      margin: 0 auto;
+      float: none;
+      padding: 15px; } }
 
 .button {
   clear: both;
