@@ -819,6 +819,12 @@ section.news {
   @media screen and (max-width: 650px) {
     .form {
       width: 80%; } }
+      
+.textlp {
+  width: 70%; }
+  @media screen and (max-width: 650px) {
+    .textlp {
+      width: 80%; } }
 
 .button {
   clear: both;
